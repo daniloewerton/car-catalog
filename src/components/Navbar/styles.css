@@ -1,0 +1,43 @@
+.navbar-container {
+    min-height: 70px;
+    padding-left: 100px;
+}
+
+.main-title {
+    color: #00285F;
+}
+
+.main-title h4 {
+    margin: 0;
+}
+
+.main-title h4:hover {
+    color: #00285F;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.main-menu-itens {
+    display: flex;
+    font-size: 18px;
+    width: 170px;
+    justify-content: space-between;
+}
+
+.main-menu-itens a {
+    color: #00285F;
+    font-weight: 400;
+}
+
+.main-menu-itens a:hover {
+    color: #FFF;
+}
+
+.main-menu-itens a.active {
+    color: #00285F;
+    font-weight: 700;
+}
