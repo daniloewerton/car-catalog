@@ -1,0 +1,145 @@
+.container {
+    padding: 20px 10px;
+}
+
+.content-container {
+    background-color: #00285F;
+    padding: 40px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+}
+
+.content-container h3 {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.content-container p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content-container h3, p {
+    color: #FFF;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.secundary-container {
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secundary-container p {
+    color: #585858;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.button-catalog {
+    width: 174px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #FFF;
+    line-height: 40px;
+    margin-bottom: 10px;;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #00285F;
+}
+
+.button-catalog:hover {
+    color: #FFF;
+}
+
+@media (min-width: 576px) {
+
+    .container {
+        padding: 0;
+        margin-top: 30px;
+        max-width: 95%;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-container img {
+        width: 333px;
+        height: 199px;
+    }
+
+    .content-container h3 {
+        font-size: 36px;
+        padding-bottom: 5px;
+    }
+    
+    .content-container p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .secundary-container {
+        height: 123px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .secundary-container {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .secundary-container a {
+        margin-left: 60px;
+    }
+
+    .secundary-container p {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .image-container img {
+        width: 445px;
+        height: 272px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .content-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-container img {
+        width: 333px;
+        height: 199px;
+    }
+
+    .content-container h3, p {
+        text-align: left;
+        width: 420px;
+    }
+}
