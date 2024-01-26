@@ -4,7 +4,7 @@ import 'bootstrap/js/dist/collapse';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md bg-primary navbar-dark navbar-container">
+    <nav className="navbar navbar-expand-md bg-primary navbar-light navbar-container">
       <div className="container-fluid">
         <a href="/" className="main-title">
           <h4>Carros Top</h4>
