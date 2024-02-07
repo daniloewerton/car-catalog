@@ -1,0 +1,33 @@
+.card-container {
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.image-container img {
+    width: 220px;
+    height: 165px;
+    display: flex;
+}
+
+.content-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-card h3 {
+    font-size: 18px;    
+    font-weight: bold;
+}
+
+.content-card p {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 20px 10px 20px;
+}

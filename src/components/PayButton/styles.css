@@ -1,0 +1,21 @@
+.pay-button {
+    background-color: #00285F;
+    color: white;
+    width: 257.93px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pay-button h6 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.pay-button:hover {
+    color: white;
+}

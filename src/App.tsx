@@ -3,6 +3,7 @@ import Navbar from 'components/Navbar';
 import './App.css';
 import Home from 'pages/Home';
 import Catalog from 'pages/Catalog';
+import Card from 'components/Card';
 
 const App = () => {
   
@@ -10,6 +11,7 @@ const App = () => {
     <>
       <Navbar />
       <Catalog />
+      <Card />
     </>
   );
 }
