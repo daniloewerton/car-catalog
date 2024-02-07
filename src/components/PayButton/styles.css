@@ -19,3 +19,31 @@
 .pay-button:hover {
     color: white;
 }
+
+@media (min-width: 576px) {
+
+    .pay-button {
+        width: 220px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .pay-button {
+        width: 307px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .pay-button {
+        width: 257.31px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .pay-button {
+        width: 266px;
+    }
+}

@@ -1,4 +1,4 @@
-.container {
+.search-container {
     background-color: #EDEDED;
     width: 90%;
     height: 86px;
@@ -31,7 +31,7 @@
     color: #FFF;
 }
 
-.container input {
+.search-container input {
     border: none;
     height: 40px;
     border-radius: 5px 0 0 5px;
@@ -41,7 +41,7 @@
 
 @media (min-width: 576px) {
 
-    .container input {
+    .search-container input {
         width: 300px;
     }
 
@@ -52,7 +52,7 @@
 
 @media (min-width: 768px) {
 
-    .container input {
+    .search-container input {
         width: 516px;
     }
 
@@ -63,7 +63,7 @@
 
 @media (min-width: 992px) {
 
-    .container input {
+    .search-container input {
         width: 584px;
     }
 

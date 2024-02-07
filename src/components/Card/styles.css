@@ -6,6 +6,8 @@
     align-items: center;
     border-radius: 10px;
     height: 350px;
+    width: 300px;
+    margin-bottom: 15px;
 }
 
 .image-container img {
@@ -30,4 +32,47 @@
     font-size: 14px;
     font-style: italic;
     margin: 0 20px 10px 20px;
+}
+
+@media (min-width: 576px) {
+    
+    .card-container {
+        width: 258px;
+        height: 347px;
+    }
+
+    .image-container img {
+        width: 220.72px;
+    }
+
+    .content-card p {
+        font-size:  12px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .card-container {
+        width: 349px;
+        height: 347px;
+    }
+
+    .content-card p {
+        font-size:  14px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .card-container {
+        width: 296px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .card-container {
+        width: 306px;
+    }
 }
