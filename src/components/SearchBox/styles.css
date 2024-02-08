@@ -1,6 +1,6 @@
 .search-container {
     background-color: #EDEDED;
-    width: 90%;
+    width: 300px;
     height: 86px;
     border-radius: 10px;
     display: flex;
@@ -41,8 +41,12 @@
 
 @media (min-width: 576px) {
 
+    .search-container {
+        width: 536px;
+    }
+
     .search-container input {
-        width: 300px;
+        width: 320px;
     }
 
     .search-button {
@@ -52,23 +56,34 @@
 
 @media (min-width: 768px) {
 
-    .search-container input {
-        width: 516px;
+    .search-container {
+        width: 728px;
     }
 
-    .search-button {
-        width: 174px;
+    .search-container input {
+        width: 516px;
     }
 }
 
 @media (min-width: 992px) {
 
+    .search-container {
+        width: 952px;
+    }
+
     .search-container input {
         width: 584px;
     }
+}
 
-    .search-button {
-        width: 174px;
+@media (min-width: 1280px) {
+
+    .search-container {
+        width: 979px;
+    }
+
+    .search-container input {
+        width: 584px;
     }
 }
 
