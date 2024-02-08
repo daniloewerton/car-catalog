@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 import CarHeader from 'assets/images/car-header.svg';
 
@@ -18,7 +19,7 @@ const Home = () => {
       </div>
 
       <div className="secundary-container">
-        <a className="button-catalog" href="#">Ver catálogo</a>
+        <Link className="button-catalog" to="/catalog">Ver catálogo</Link>
         <p>Comece agora a navegar</p>
       </div>
     </div>
