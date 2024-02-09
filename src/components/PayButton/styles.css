@@ -1,6 +1,5 @@
 .pay-button {
     background-color: #00285F;
-    color: white;
     width: 257.93px;
     height: 40px;
     border-radius: 5px;
@@ -12,12 +11,17 @@
 }
 
 .pay-button h6 {
+    color: white;
     margin: 0;
     text-transform: uppercase;
+    padding: 0;
 }
 
 .pay-button:hover {
     color: white;
+    background-color: #F78B00;
+    transition-duration: 0.7s;
+
 }
 
 @media (min-width: 576px) {
