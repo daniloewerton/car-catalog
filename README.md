@@ -8,8 +8,8 @@ Projeto proposto no bootcamp de ReactJS da escola DevSuperior com o intuito de c
 
 # Layout do Projeto
 
-![alt text](Widescreen.png)
-![alt text](<Widescreen 2.png>)
+![Widescreen 2](https://github.com/daniloewerton/car-catalog/assets/76541826/1ed91e75-a7fb-43d0-bac6-adb90b239e16)
+![Widescreen](https://github.com/daniloewerton/car-catalog/assets/76541826/08202f94-05d7-4617-a3b0-7f3dbe17fe46)
 
 # Executando o projeto
 
