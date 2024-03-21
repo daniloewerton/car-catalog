@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Carros Top
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)![Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-## Available Scripts
+# Sobre o projeto
 
-In the project directory, you can run:
+Projeto proposto no bootcamp de ReactJS da escola DevSuperior com o intuito de colocar em prática conhecimentos de criação de projetos básicos em ReactJS utilizando montagem e reutilização de componentes, roteamento entre páginas e responsividade.
 
-### `yarn start`
+# Layout do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alt text](Widescreen.png)
+![alt text](<Widescreen 2.png>)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Executando o projeto
 
-### `yarn test`
+Faça o clone do projeto com o comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### `git clone https://github.com/daniloewerton/car-catalog.git`
 
-### `yarn build`
+Navegue até o diretório raíz do projeto e execute o comando abaixo para baixar as dependências do projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `yarn`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Execute o comando abaixo para iniciar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `yarn start` 
 
-### `yarn eject`
+O projeto estará disponível no endereço:
+[http://localhost:3000](http://localhost:3000) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Tecnologias Utilizadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- HTML5
+- CSS3
+- ReactJS 17
+- Bootstrap 5
+- React Router Dom 5
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Autoria
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Design: Escola Dev Superior
 
-## Learn More
+Projeto: Danilo Ewerton Pereira Freire
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniloewerton/)
+[![Linkedin](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:danilo.ewe@gmail.com)
